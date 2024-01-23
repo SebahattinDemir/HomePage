@@ -1,0 +1,111 @@
+:root {
+  --color1: #ffffff;
+  --color2: #dbdada;
+  --color3: #343a40;
+  --color4: #56a6e8;
+  --color5: #4f4f50;
+  --color6: #0f0f0f;
+  --color7: #4a5aed;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color2);
+  color: var(--color6);
+}
+
+a {
+  color: var(--color1);
+  text-decoration: none;
+}
+
+/*! HEADER */
+
+header {
+  background-color: var(--color4);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+header ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+/*! MAIN */
+
+.banner {
+  background-color: var(--color1);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.banner .banner-logo {
+  display: flex;
+  align-items: center;
+}
+
+.banner .banner-logo img {
+  width: 100px;
+  height: 120px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.banner .banner-logo h2 {
+  margin: 0;
+}
+
+.banner .call {
+  display: flex;
+  align-items: center;
+}
+
+.banner .call a {
+  color: var(--color4);
+}
+.banner .call i {
+  font-size: 40px;
+  color: var(--color4);
+  margin-right: 10px;
+}
+
+.banner .time {
+  display: flex;
+  align-items: center;
+}
+
+.banner .time i {
+  font-size: 40px;
+  color: var(--color4);
+  margin-right: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner button {
+  background-color: var(--color4);
+  border: none;
+  color: var(--color1);
+  cursor: pointer;
+  width: 200px;
+  height: fit-content;
+  padding: 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.banner button:hover{
+    background-color: var(--color7);
+}
+
+
