@@ -71,6 +71,17 @@ header ul {
   color: var(--color4);
   margin-right: 10px;
 }
+.homepage .call .inBar i {
+  font-size: 20px;
+  color: #28cc2b;
+  margin: auto;
+}
+
+.inBar p:last-child span {
+  color: #ec2f50;
+  font-style: italic;
+  font-size: 20px;
+}
 
 .homepage .time {
   display: flex;
@@ -104,30 +115,67 @@ header ul {
   -o-border-radius: 5px;
 }
 
-.homepage button:hover{
-    background-color: var(--color7);
+.homepage button:hover {
+  background-color: var(--color7);
 }
 
 /*! BANNER SECTION */
 
 .banner {
-    position: relative;
-  }
-
-  .banner img {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center center;
-    filter: brightness(70%);
-    -webkit-filter: brightness(70%);
+  position: relative;
 }
 
-.banner .banner-text {
-    text-align: left;
-    font-size: 20px;
-    position: absolute;
-    z-index:5;
-    top: 30%;
-    color: var(--color1);
-  }
+.banner img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center center;
+  filter: brightness(60%);
+  -webkit-filter: brightness(60%);
+}
+
+.banner .decoration {
+  text-align: left;
+  width: 400px;
+  font-size: 20px;
+  position: absolute;
+  z-index: 5;
+  top: 30%;
+  color: var(--color1);
+  margin-left: 50px;
+}
+
+.decoration h2 {
+  color: var(--color1);
+}
+
+.decoration h2 span {
+  color: var(--color4);
+}
+
+.decoration p {
+  color: var(--color1);
+  line-height: 22px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.decoration button.firstBtn {
+  border: none;
+  background-color: var(--color4);
+  color: var(--color1);
+  border-radius: 2px;
+  padding: 10px 30px;
+}
+
+.decoration button.secondBtn {
+  border: none;
+  background-color: transparent;
+  color: var(--color1);
+  margin-left: 20px;
+}
+
+.decoration button.secondBtn span {
+  border-bottom: 1px solid var(--color4);
+}
