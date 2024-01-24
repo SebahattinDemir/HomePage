@@ -14,6 +14,16 @@ body {
   color: var(--color6);
 }
 
+html,
+body,
+ul,
+table,
+p {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
 a {
   color: var(--color1);
   text-decoration: none;
@@ -94,6 +104,14 @@ header ul {
   margin-right: 10px;
 }
 
+.bar:after {
+  content: "";
+  background-color: #ccc;
+  height: 60px;
+  width: 1px;
+  margin-left: 50px;
+}
+
 .btn {
   display: flex;
   justify-content: center;
@@ -140,7 +158,7 @@ header ul {
   font-size: 20px;
   position: absolute;
   z-index: 5;
-  top: 30%;
+  top: 50%;
   color: var(--color1);
   margin-left: 50px;
 }
@@ -167,15 +185,143 @@ header ul {
   color: var(--color1);
   border-radius: 2px;
   padding: 10px 30px;
+  cursor: pointer;
 }
+
+.decoration button.firstBtn:hover{
+  background-color: var(--color7);
+}
+
 
 .decoration button.secondBtn {
   border: none;
   background-color: transparent;
   color: var(--color1);
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .decoration button.secondBtn span {
   border-bottom: 1px solid var(--color4);
+}
+
+.decoration button.secondBtn span:hover{
+  border-bottom: 3px solid var(--color7);
+}
+
+.banner .banner-menu {
+  position: absolute;
+  display: flex;
+  top: 0;
+  width: 100vw;
+  justify-content: space-around;
+  right: 0px;
+  height: 134px;
+}
+
+.banner-menu ul {
+  list-style-type: none;
+}
+
+.banner-menu ul li {
+}
+
+/*! FOOTER */
+
+.footer {
+  display: flex;
+  flex: 1;
+  gap: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.sidebar {
+  flex: 1;
+  background-color: var(--color1);
+}
+
+.sidebar > * {
+  padding: 30px; /* Tüm içeriklere 30px iç kenar boşluğu */
+}
+
+.sidebar .sidebar1 {
+  font-size: 30px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.sidebar .sidebar1:after {
+  content: "";
+  background-color: var(--color4);
+  width: 50px;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+
+  margin-left: 30px;
+}
+
+.sidebar .sidebar1:before {
+  content: "";
+  background-color: #ccc;
+  width: 150px;
+  height: 3px;
+  bottom: 0px;
+  right: 0;
+  position: absolute;
+
+  margin-right: 30px;
+}
+
+.sidebar button {
+  border: none;
+  background-color: var(--color4);
+  color: var(--color1);
+  border-radius: 2px;
+  width: calc(100% - 30px);
+  height: 42px;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.sidebar button:hover {
+  background-color: var(--color7);
+}
+
+.desc {
+  flex: 1;
+  background-color: var(--color1);
+  display: flex;
+  flex-direction: column;
+}
+
+.desc p {
+  padding: 30px;
+  flex: 1;
+}
+
+.imgDesc {
+  position: relative;
+}
+
+.imgDesc img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex: 1;
+  object-position: center center;
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%);
+}
+
+.imgDesc h4 {
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  color: var(--color2);
 }
