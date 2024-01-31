@@ -18,7 +18,7 @@ Bu proje, basit ve kullanıcı dostu bir homepage tasarımını içermektedir. T
 1. Projeyi bilgisayarınıza klonlayın:
 
     ```bash
-    git clone https://github.com/SebahattinDemir/HomePage-Practice.git
+    git clone https://github.com/SebahattinDemir/HomePage.git
     ```
 
 2. Tarayıcınızda `homepage.html` dosyasını açarak sayfayı görüntüleyin.
