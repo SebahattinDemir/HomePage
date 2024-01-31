@@ -18,7 +18,7 @@ Bu proje, basit ve kullanıcı dostu bir homepage tasarımını içermektedir. T
 1. Projeyi bilgisayarınıza klonlayın:
 
     ```bash
-    git clone https://github.com/kullaniciadi/proje.git
+    git clone https://github.com/SebahattinDemir/HomePage-Practice.git
     ```
 
 2. Tarayıcınızda `homepage.html` dosyasını açarak sayfayı görüntüleyin.
@@ -40,4 +40,4 @@ Eğer projeye katkıda bulunmak istiyorsanız:
 4. Branch'inizi push edin (`git push origin feature/yeni-ozellik`).
 5. Bir pull request gönderin.
    
-Ayrıca GitHub profilimde bulanan LinkedIn hesabım üzerinden benimle iletişime geçebilir ve projeyi geliştirmeme yardımcı olabilirsiniz.
+Ayrıca GitHub profilimde bulanan [LinkedIn](https://www.linkedin.com/in/sebahattindemir) hesabım üzerinden benimle iletişime geçebilir ve projeyi geliştirmeme yardımcı olabilirsiniz.
